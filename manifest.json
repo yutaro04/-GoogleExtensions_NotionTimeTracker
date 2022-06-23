@@ -1,12 +1,9 @@
 {
-  "name": "NotionTaskTimeTracker",
+  "name": "Notionタイムトラッカー",
   "version": "1.0.0",
   "manifest_version": 3,
-  "description": "Record work time in Notion",
-  "content_scripts": [{
-    "matches": ["https://github.com/*"],
-    "js": [
-      "main.js"
-    ]
-  }]
+  "description": "作業時間をNotionに記録します",
+  "action": {
+    "default_popup": "popup.html"
+  }
 }

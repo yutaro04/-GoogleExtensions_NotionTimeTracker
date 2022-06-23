@@ -1,7 +1,7 @@
 {
   "name": "NotionTaskTimeTracker",
   "version": "1.0.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Record work time in Notion",
   "content_scripts": [{
     "matches": ["https://github.com/*"],

@@ -6,14 +6,14 @@
 	<link rel="stylesheet" href="popup.css">
 </head>
 <body>
-	<form id="form" method="get" action="https://script.google.com/macros/s/AKfycbxigX9lL7OjLvA2fwV0m41p3o3o3ocbU3nN0PSijfYsHnQhfcTJBeDlz_zq7hVQIcAW/exec" accept-charset="UTF-8">
-		<label>作業者を選択して下さい</label>
-		<select name="name">
+	<form id="form" method="get" action="https://script.google.com/macros/s/AKfycbwTgSjUgE1_LRxuJY3kQXs2gGyqInjI2yIZrGH1mgD5VCqEXEp2UEH47ZDzjNNfGmxX/exec" accept-charset="UTF-8">
+		<label>作業者を選択して下さい</label><br>
+		<select name="name" id="name">
 			<option value="matsuo">松尾</option>
 			<option value="ata">阿多</option>
-		</select>
-		<input type="submit" value="作業開始・再開" />
-		<input type="submit" value="作業終了・中断" />
-	</form>>
+		</select><br>
+		<input type="submit" name="start" id="startTask" value="作業開始・再開" /><br>
+		<input type="submit" name="finish" id="finishTask" value="作業終了・中断" />
+	</form>
 </body>
 </html>

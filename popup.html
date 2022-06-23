@@ -2,12 +2,18 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
-	<title>元気が出るスイッチ</title>
+	<title>作業時間トラッカー</title>
 	<link rel="stylesheet" href="popup.css">
 </head>
 <body>
-	<h1>元気が出るスイッチ</h1>
-	<button type="button" id="alertButton">ちょっと気持ちが沈んできたよ</button>
-	<script src="alert.js"></script>
+	<form id="form" method="get" action="https://script.google.com/macros/s/AKfycbxigX9lL7OjLvA2fwV0m41p3o3o3ocbU3nN0PSijfYsHnQhfcTJBeDlz_zq7hVQIcAW/exec" accept-charset="UTF-8">
+		<label>作業者を選択して下さい</label>
+		<select name="name">
+			<option value="matsuo">松尾</option>
+			<option value="ata">阿多</option>
+		</select>
+		<input type="submit" value="作業開始・再開" />
+		<input type="submit" value="作業終了・中断" />
+	</form>>
 </body>
 </html>
